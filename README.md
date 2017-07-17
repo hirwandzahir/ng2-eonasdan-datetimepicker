@@ -10,13 +10,13 @@ Please, post an issue on GitHub and **provide a plunker** with your question.
 
 1) Install the directive via bower or npm (or download it manually, as you prefer)
 ```javascript
-npm install ng2-eonasdan-datetimepicker --save
+npm install ng4-eonasdan-datetimepicker-hirwan --save
 ```
 
 2) Add the A2Edatetimepicker module import in your module.:
 
 ```javascript
-import {A2Edatetimepicker} from 'ng2-eonasdan-datetimepicker';
+import {A2Edatetimepicker} from 'ng4-eonasdan-datetimepicker-hirwan';
 
 @NgModule({
   imports: [
