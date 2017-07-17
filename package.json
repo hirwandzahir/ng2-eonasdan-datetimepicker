@@ -1,16 +1,16 @@
 {
   "name": "ng4-eonasdan-datetimepicker-hirwan",
-  "version": "0.0.7",
-  "description": "Angular2 component for bootstrap-datetimepicker library.",
+  "version": "1.0.0",
+  "description": "Angular4 component for bootstrap-datetimepicker library.",
   "keywords": [
-    "angular2",
-    "ng2",
+    "angular4",
+    "ng4",
     "bootstrap",
     "datetimepicker",
     "component",
     "directive"
   ],
-  "homepage": "https://github.com/atais/ng2-eonasdan-datetimepicker",
+  "homepage": "https://github.com/hirwandzahir/ng4-eonasdan-datetimepicker-hirwan",
   "license": "MIT",
   "main": "dist/datetimepicker.module.js",
   "typings": "dist/datetimepicker.module.d.ts",
@@ -18,10 +18,10 @@
     "prepare": "npm run build",
     "build": "(del /f dist || rm -rf dist) && tsc"
   },
-  "author": "Michał Siatkowski",
+  "author": "Hirwan Dzahir",
   "repository": {
     "type": "git",
-    "url": "https://github.com/atais/ng2-eonasdan-datetimepicker.git"
+    "url": "git+https://github.com/hirwandzahir/ng4-eonasdan-datetimepicker-hirwan.git"
   },
   "devDependencies": {
     "@types/core-js": "^0.9.36",
@@ -43,5 +43,8 @@
     "moment-timezone": "^0.4.0",
     "jquery": "^1.8.3 || ^2.0",
     "rxjs": "^5.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/hirwandzahir/ng4-eonasdan-datetimepicker-hirwan/issues"
   }
 }
